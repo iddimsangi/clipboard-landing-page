@@ -8,6 +8,9 @@ module.exports = {
       xl: "1440px",
     },
     extend: {
+      backgroundImage: {
+        backg_image: "url('./images/bg-header-mobile.png')",
+      },
       colors: {
         "strong-cyan": "hsl(171, 66%, 44%)",
         "light-blue": "hsl(233, 100%, 69%)",
