@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/iddimsangi/pricing-react-app/blob/master/src/my-desgn.png)
+![](https://github.com/iddimsangi/clipboard-landing-page/blob/master/design/desktop-design.jpg)
 
 ### Links
 
