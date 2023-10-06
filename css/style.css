@@ -550,6 +550,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 5rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -574,6 +578,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 5rem;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -588,6 +596,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[945px\] {
   max-width: 945px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -786,6 +798,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .container {
   max-width: 1024px;
   width: 100%;
+}
+
+.icon {
+  stroke: hsl(210, 10%, 33%);
+  fill: hsl(210, 10%, 33%);
+  transition:all .4s;
+}
+
+.icon:hover{
+  stroke:hsl(171, 66%, 44%);
+  fill: hsl(171, 66%, 44%);
 }
 
 .hover\:text-strong-cyan:hover {
