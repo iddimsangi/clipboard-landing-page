@@ -14,10 +14,10 @@
     <title>Clipboard-landing-page</title>
   </head>
   <body
-    class="flex flex-col justify-center items-center space-y-6 min-h-screen min-w-full max-w-6xl mx-auto"
+    class="flex flex-col justify-center items-center space-y-6 min-h-screen bg-[url('/images/bg-header-mobile.png')] md:bg-[url('/images/bg-header-desktop.png')] bg-no-repeat bg-top bg-contain"
   >
     <div
-      class="flex flex-col p-6 justify-center items-center md:min-w-full mx-auto container"
+      class="flex flex-col justify-center items-center md:min-w-full mx-auto container"
     >
       <header
         class="flex flex-col space-y-4 p-2 min-w-96 items-center pt-24 justify-between items-centers text-center"
@@ -33,7 +33,7 @@
           copy.Instantly access your clipboard on every divices
         </h3>
         <div
-          class="flex flex-col min-w-full md:flex-row md:justify-center md:space-x-7 md:min-w-full md:space-y-0"
+          class="flex flex-col min-w-full sm:px-12 md:flex-row md:justify-center md:space-x-7 md:space-y-0"
         >
           <a
             href="#"
@@ -48,7 +48,7 @@
         </div>
       </header>
       <section
-        class="flex flex-col justify-center text-center items-center max-w-6xl relative space-y-4 p-4 md:mt-14 pb-20"
+        class="flex flex-col justify-center text-center items-center min-w-full relative space-y-4 p-4 md:mt-14"
       >
         <h1 class="mt-2 text-3xl font-bold text-dark-grayish-blue">
           Keep track of your snnipets
@@ -58,54 +58,48 @@
           can access your snippets immediately on all your devices.Our Mac and
           iOS apps will help you organize everything.
         </p>
-        <div
-          class="flex flex-col space-y-4 justify-center items-center min-w-full md:flex-row md:space-x-96 md:max-w-6xl"
-        >
-          <img
-            src="./images/image-computer.png"
-            alt="computer image"
-            class="md:max-w-[550px] md:absolute md:top-[30%] md:left-[-45px]"
-          />
+        <div class="flex flex-col justify-center items-center md:flex-row md:items-start md:space-x-12 space-y-10 w-full">
+         <div class="w-full md:w-1/2 md:-ml-52">
+          <img src="./images/image-computer.png" alt="computer image" class="max-w-full" />
+         </div>
+         <div class="flex flex-col w-full md:max-w-md justify-center items-center md:items-start">
           <div
-            class="flex flex-col items-start w-full justify-center space-y-8 md:space-y-6 md:pl-36"
+            class="flex flex-col justify-center items-center text-center md:items-start md:text-left mt-10 md:mt-3"
           >
-            <div
-              class="flex flex-col justify-center items-center text-center md:items-start md:text-left mt-10 md:mt-3"
-            >
-              <h2 class="text-2xl font-bold text-dark-grayish-blue">
-                Quick Search
-              </h2>
-              <p class="text-[#D4D9DB] text-base">
-                Easily search your snippets by content, category, web address,
-                application and more.
-              </p>
-            </div>
-            <div
-              class="flex flex-col justify-center text-center md:items-start md:text-left"
-            >
-              <h2 class="text-2xl font-bold text-dark-grayish-blue">
-                iCloud Sync
-              </h2>
-              <p class="text-[#D4D9DB] text-base">
-                Instantly saves and syncs snippets across all your devices.
-              </p>
-            </div>
-            <div
-              class="flex flex-col justify-center text-center md:items-start md:text-left"
-            >
-              <h2 class="text-2xl font-bold text-dark-grayish-blue">
-                Complete History
-              </h2>
-              <p class="text-[#D4D9DB] text-base">
-                Retrieve any snippets from the first moment you started using
-                the app.
-              </p>
-            </div>
+            <h2 class="text-2xl font-bold text-dark-grayish-blue">
+              Quick Search
+            </h2>
+            <p class="text-[#D4D9DB] text-base">
+              Easily search your snippets by content, category, web address,
+              application and more.
+            </p>
           </div>
+          <div
+            class="flex flex-col justify-center text-center md:items-start md:text-left"
+          >
+            <h2 class="text-2xl font-bold text-dark-grayish-blue">
+              iCloud Sync
+            </h2>
+            <p class="text-[#D4D9DB] text-base">
+              Instantly saves and syncs snippets across all your devices.
+            </p>
+          </div>
+          <div
+            class="flex flex-col justify-center text-center md:items-start md:text-left"
+          >
+            <h2 class="text-2xl font-bold text-dark-grayish-blue">
+              Complete History
+            </h2>
+            <p class="text-[#D4D9DB] text-base">
+              Retrieve any snippets from the first moment you started using
+              the app.
+            </p>
+          </div>
+        </div>
         </div>
       </section>
       <section
-        class="flex flex-col justify-center items-center space-y-4 p-4 min-w-96 justify-between items-center min-w-full text-center"
+        class="flex flex-col justify-center items-center space-y-4 p-4 md:mt-20 min-w-full text-center"
       >
         <h1 class="mt-12 text-3xl font-bold text-dark-grayish-blue">
           Access ClipBoard Anywhere
@@ -117,7 +111,7 @@
         <img
           src="./images/image-devices.png"
           alt="computer image"
-          class="pt-6 md:w-4/6"
+          class="pt-6 md:max-w-3xl"
         />
         <div class="flex flex-col items-center justify-center space-y-2">
           <h1 class="mt-12 text-3xl font-bold text-dark-grayish-blue">
@@ -221,7 +215,7 @@
           with iCloud and you're ready to start adding to your clipboard.
         </h3>
         <div
-          class="flex flex-col min-w-full md:flex-row md:justify-center md:space-x-7 md:min-w-full md:space-y-0"
+          class="flex flex-col min-w-full sm:px-12 md:flex-row md:justify-center md:space-x-7 md:min-w-full md:space-y-0"
         >
           <a
             href="#"
@@ -248,17 +242,43 @@
         <ul
           class="flex flex-col space-y-5 md:grid md:space-y-0 md:grid-rows-2 md:grid-cols-3 md:gap-2"
         >
-          <li><a class="hover:text-strong-cyan duration-200 transition" href="#">FAQs</a></li>
-          <li><a class="hover:text-strong-cyan duration-200 transition" href="#">Contact Us</a></li>
-          <li><a class="hover:text-strong-cyan duration-200 transition" href="#">Privacy Policy</a></li>
-          <li><a class="hover:text-strong-cyan duration-200 transition" href="#">Press Kit</a></li>
-          <li><a class="hover:text-strong-cyan duration-200 transition" href="#">Install Guide</a></li>
+          <li>
+            <a class="hover:text-strong-cyan duration-200 transition" href="#"
+              >FAQs</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-strong-cyan duration-200 transition" href="#"
+              >Contact Us</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-strong-cyan duration-200 transition" href="#"
+              >Privacy Policy</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-strong-cyan duration-200 transition" href="#"
+              >Press Kit</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-strong-cyan duration-200 transition" href="#"
+              >Install Guide</a
+            >
+          </li>
         </ul>
         <!-- Added closing </ul> tag here -->
         <div class="flex space-x-8 p-6">
-          <svg class="icon icon-twitter w-6 h-6 cursor-pointer icon" ><use xlink:href="symbol-defs.svg#icon-facebook"></use></svg>
-          <svg class="icon icon-twitter w-6 h-6 cursor-pointer icon"><use xlink:href="symbol-defs.svg#icon-twitter"></use></svg>
-          <svg class="icon icon-twitter w-6 h-6 cursor-pointer icon"><use xlink:href="symbol-defs.svg#icon-instagram"></use></svg>
+          <svg class="icon icon-twitter w-6 h-6 cursor-pointer icon">
+            <use xlink:href="symbol-defs.svg#icon-facebook"></use>
+          </svg>
+          <svg class="icon icon-twitter w-6 h-6 cursor-pointer icon">
+            <use xlink:href="symbol-defs.svg#icon-twitter"></use>
+          </svg>
+          <svg class="icon icon-twitter w-6 h-6 cursor-pointer icon">
+            <use xlink:href="symbol-defs.svg#icon-instagram"></use>
+          </svg>
         </div>
       </div>
     </footer>
